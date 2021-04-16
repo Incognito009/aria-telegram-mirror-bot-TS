@@ -101,7 +101,7 @@ export async function driveDownloadAndTar(fileId: string, bot: TelegramBot, tarr
                                             finalMessage = `<a href='${url}'>${destName}</a>`;
                                         }
                                         if (constants.IS_TEAM_DRIVE && isFolder) {
-                                            finalMessage += '\n\n<i>Folders in Shared Drives can only be shared with members of the drive. Mirror as an archive if you need public links.</i>';
+                                            finalMessage += '\n\n<i>You can use IndexLink only :D.</i>';
                                         }
                                         if (res.status) {
                                             finalMessage += '\n\nNote: There might be somefiles which is not inside tar, because downloading failed.'
